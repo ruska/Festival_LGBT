@@ -1,0 +1,266 @@
+/*
+Theme Name: Festival
+Description: Thème enfant du thème Twenty Twelve
+Author: Ruska
+Template: twentytwelve
+Version: 0.1.0
+*/
+
+
+
+@import url("../twentytwelve/style.css");
+
+body{
+background-image:url(images/font.jpeg); 
+background-attachment: fixed;
+height:850px !important;
+}
+
+.site-header{
+background-image:url(images/lgbt2.jpeg); 
+}
+
+.home #page{
+    background-image:url(images/cine.jpeg) ;
+ background-repeat: no-repeat; 
+  background-position: 90% 26%;
+  border-radius: 5px;
+
+}
+
+.home #main{
+  background-image:url(images/fistival.jpg) ;
+ background-size: 25% 5%;
+  background-repeat: no-repeat; 
+  background-position: 92% 7%;
+}
+
+
+
+#menu-menu{
+width: 1040px !important;
+position:relative;
+left:-5px;
+background-color: #000000 !important;
+top: 40px !important;
+}
+
+.fg-rouge {
+background-color: #ff0000; 
+width:164px !important;
+text-align: center;
+margin:0px !important;
+border:double;
+}
+.fg-rougeC{
+background-color: 	#FFA500;
+width:164px !important;
+text-align: center;
+margin:0px !important;
+border:double;
+}
+.fg-bleuC{
+background-color: #FFD700; 
+width:164px !important;
+margin:0px !important;
+text-align: center;
+border:double;
+}
+.fg-bleu{
+background-color: #1E90FF; 
+margin:0px !important;
+width:164px !important;
+text-align: center;
+border:double;
+}
+.fg-vert{
+background-color: #00FA9A; 
+margin:0px !important;
+width:164px !important;
+text-align: center;
+border:double;
+}
+.fg-vertC{
+background-color: #C71585;
+margin:0px !important; 
+width:164px !important;
+text-align: center;
+border:double;
+}
+
+
+
+.fg-rouge a{
+	color: #fff !important; 
+	font-size: 15px !important;
+	style:bold !important; 
+}
+.fg-rougeC a{
+color:#fff !important; 
+font-size: 15px !important;
+style:bold !important; 
+}
+.fg-bleuC a{
+color:#fff !important;
+font-size: 15px !important;
+style:bold !important;  
+}
+
+.fg-bleu a{
+color:#fff !important;
+font-size: 15px !important;
+style:bold !important;  
+}
+.fg-vert a{
+font-size: 15px !important;
+style:bold !important; 
+}
+.fg-vertC a{
+color:#fff !important; 
+font-size: 15px !important;
+style:bold !important; 
+}
+
+
+
+#masthead{
+background-color: #279BF4 !important;
+width: 1050px !important;
+position:relative;
+left:-40px;
+height: 110px !important;
+
+}
+.site-title{
+color:blue !important;
+position:relative;
+top: 25px;
+font-size: 35px;
+font-family: fantasy; !important;
+left:-925px;
+}
+
+h1{
+color:#004360;	
+font-family: fantasy;
+font-size: 37px;
+font-style:bold;
+}
+
+.prog-item{
+	color:#4ED2F3;
+	background-color: black;
+  padding:5px;
+-moz-box-shadow:0px 0px 10px 7px #c3c3c8;
+-webkit-box-shadow:0px 0px 10px 7px #c3c3c8;
+box-shadow:0px 0px 10px 7px #c3c3c8;
+
+
+
+}
+
+
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 60%;
+  height: 350px;
+  padding: 0;
+  margin: 0;
+  top:100px;
+ -moz-box-shadow: 16px 13px 5px 3px #343434;
+-webkit-box-shadow: 16px 13px 5px 3px #343434;
+-o-box-shadow: 16px 13px 5px 3px #343434;
+box-shadow: 16px 13px 5px 3px #343434;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=129, Strength=5);
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+       display: block;
+    float: left;
+   height: 351px;
+    width: 577px;
+}
+
+  .post-76{
+  	position: relative;
+  	top:110px;
+  }
+
+  .post-80{
+    position: relative;
+    top:95px;}
+
+    .post-84{
+    position: relative;
+    top:95px;}
+
+
+ .post-86{
+    position: relative;
+    top:95px;}
+
+
+  .widget-title{
+    color: #A8005A;
+    font-size: 20px;
+  }
+
+  .widget-area{
+    position: relative;
+    top:100px;
+  }
+
+.attachment-post-thumbnail{
+  border: medium double;
+      border-width:10px;
+  border-style:solid;
+  border-color:#005B82;
+}
+
+.Plate-forme{
+
+}
+
+.entry-content{
+  text-align: justify;
+  -moz-box-shadow:0px 0px 10px 3px rgba(119, 119, 119, 0.9);
+-webkit-box-shadow:0px 0px 10px 3px rgba(119, 119, 119, 0.9);
+box-shadow:0px 0px 10px 3px rgba(119, 119, 119, 0.9);
+padding:10px;
+}
+  
+
+  .post-meta{
+    position: relative;
+    top:14px;
+    left:20px;
+    background: #DFDFDF;
+    width: 220px;
+    padding: 10px;
+  }
+
+footer
+{
+  display:none;
+}
